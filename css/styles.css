@@ -14,13 +14,13 @@ body {
   line-height: 1.17;
 }
 
-
 .logo {
   font-family: raleway;
   color: var(--accent-color);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  letter-spacing: 3%;
 }
 .logo-second {
   font-family: raleway;
@@ -28,14 +28,16 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  letter-spacing: 3%;
 }
 .logo-third {
   font-family: raleway;
-  color: #ffffff;  
+  color: #ffffff;
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 3%;
   line-height: 1.19;
-
+  letter-spacing: 3%;
 }
 
 /* голубой цвет 2196F3 
@@ -45,12 +47,20 @@ body {
 фон хедера #FFFFFF;
 
 */
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
 .site-nav .link.current {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 2%;
 }
+
 .button {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
@@ -61,6 +71,12 @@ body {
 }
 .portfolio-buttons {
   background-color: var(--primary-bg-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  align: Center;
 }
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
@@ -81,16 +97,22 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 2%;
 }
 .contacts:hover,
 .contacts:focus {
   color: #2196f3;
 }
 .contacts {
-  color: rgba(255, 255, 255, 60%);
+  color: ;
 }
 .contacts {
   color: var(--primary-text-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 3%;
 }
 .header-contacts:hover,
 .header-contacts:focus {
@@ -106,50 +128,57 @@ body {
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 6%;
 }
 .hero-button {
   font-style: 700;
   font-size: 16px;
   line-height: 1.88;
-
+  letter-spacing: 3%;
 }
 .team {
   font-style: regular;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.19;
   align: Center;
+  letter-spacing: 3%;
 }
 .specialies {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   font-style: normal;
+  letter-spacing: 3%;
 }
 
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   font-style: normal;
+  letter-spacing: 3%;
 }
 .primary-section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 3%;
 }
 .text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 3%;
 }
 .section-text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 3%;
 }
 footer {
   background-color: var(--accent-bg-color);
@@ -160,17 +189,23 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 3%;
 }
-}
+
 .portfolio-title {
-  font-style: normal;
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: 700;
   font-size: 18px;
   line-height: 2;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 6%;
 }
-.portfolio-text {
+
+.section-text-portfolio {
   font-style: regular;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 3%;
 }
