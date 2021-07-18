@@ -70,6 +70,7 @@ li {
   cursor: pointer;
 }
 .portfolio-buttons {
+  font-family: Roboto;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
